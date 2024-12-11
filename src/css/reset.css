@@ -19,8 +19,9 @@ ul {
 }
 
 a {
-  color: currentColor;
+  color: yellow;
   text-decoration: none;
+  font-size: 30px;
 }
 
 button {
@@ -31,4 +32,16 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
